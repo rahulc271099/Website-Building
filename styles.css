@@ -1,0 +1,179 @@
+/* index-page */
+.nav-input {
+  width: 400px !important;
+}
+.logo-img {
+    width: 50px;
+    height: auto;
+}
+.navbar-nav li {
+  margin-right: 25px;
+}
+.dropdwon-style:hover {
+    text-decoration: underline;
+}
+.jumbotron-section {
+  border: 1px solid black;
+  margin: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.carousel-image {
+  height: 500px;
+}
+.carousel-section {
+  justify-content: center;
+  align-items: center;
+}
+.messege-section {
+  margin-top: 50px;
+}
+.messege-section h1 {
+  margin-top: 4rem;
+  font-size: 70px;
+}
+.messege-section h3 {
+  margin-top: 4rem;
+}
+.messegeSection-image {
+  width: 400px;
+}
+.social-icons i {
+  font-size: 25px;
+}
+.social-icons i:hover {
+  color: blue;
+}
+.footer-section p {
+  font-size: 25px;
+}
+.footer-section h2 {
+    color: rgb(214, 78, 28);
+}
+
+
+
+/* About-page */
+.navbar-section {
+  background: rgb(214, 78, 28) !important;
+  border-bottom: 2px solid white !important;
+}
+.about-section {
+  background: rgb(214, 78, 28);
+  margin-top: 50px;
+  padding: 2rem;
+}
+.about-section h1 {
+  font-size: 4rem;
+  margin-top: 100px;
+}
+.about-section p {
+  font-size: 20px;
+  margin-top: 2rem;
+}
+.about-section2 h1 {
+  font-size: 50px;
+}
+.about-section2 p {
+  margin: 5px;
+  font-size: 20px;
+}
+
+
+
+/* Event-page */
+.event-section {
+  margin-top: 50px;
+}
+.event-section h1 {
+  font-size: 4rem;
+  margin-top: 100px;
+}
+.card-section {
+  margin: 5px;
+  height: 250px;
+}
+.card-image {
+  width: 75%;
+  height: auto;
+}
+
+
+
+/* contact-section */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.contact-section h1 {
+  font-size: 4rem;
+}
+.textarea-section {
+  height: 100px !important;
+}
+.contact-section form {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+.option-btn {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(214, 78, 28);
+}
+.option-btn:hover {
+    background: blue;
+}
+.option-btn i {
+    margin-right: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+
+/* Register-section */
+.register-section form {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .nav-input {
+    width: 200px !important;
+  }
+  .messege-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .messegeSection-image {
+    width: 100%;
+  }
+  .carousel-image {
+    height: 400px;
+  }
+  .carousel {
+    margin: 20px !important;
+  }
+
+  .about-section button {
+    width: 50% !important;
+  }
+  .about-section h1 {
+    margin-top: 50px;
+  }
+  .about-section2 img {
+    width: 90%;
+  }
+  .w-100-sm {
+    width: 100% !important;
+  }
+
+  .register-section form {
+    width: 100% !important;
+  }
+}
