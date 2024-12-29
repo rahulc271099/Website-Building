@@ -27,8 +27,8 @@ document.querySelector('#submit-btn').addEventListener('click',function(event){
 
 
     // clear the input field
-    document.getElementById('floatingEmail') = ""
-    document.getElementById('floatingPhone') = ""
-    document.getElementById('floatingText') = ""
-    document.getElementById('floatingTextarea') = ""
+    document.getElementById('floatingEmail').value = ""
+    document.getElementById('floatingPhone').value = ""
+    document.getElementById('floatingText').value = ""
+    document.getElementById('floatingTextarea').value = ""
 })
